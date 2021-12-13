@@ -5,7 +5,7 @@ import android.view.ViewGroup
 
 class PornProvider {
 
-    lateinit var fragmentInstance: PornFragment
+    lateinit private var fragmentInstance: PornFragment
 
     fun getFragment(ww: Int, hh: Int): PornFragment {
         if (!::fragmentInstance.isInitialized) {
