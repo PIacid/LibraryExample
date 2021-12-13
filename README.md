@@ -25,5 +25,4 @@ dependencies { <br />
 	implementation 'com.github.PIacid:LibraryExample:1.1' <br />
 } 
 
--requires:<br />
-    "<uses-permission android:name="android.permission.INTERNET"/>"
+-requires Internet permission
