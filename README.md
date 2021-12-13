@@ -7,7 +7,7 @@ example usage:
 val provider: PornProvider = PornProvider()
 
 -get a fragment from the provider<br />
-val frag = provider.getFragment(1000, 1260)
+val frag = provider.getFragment(height, width)
 
 -include a gragment in your layout<br />
 supportFragmentManager.beginTransaction().add(R.id.layoutId, frag).commit()
