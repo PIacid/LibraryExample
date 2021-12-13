@@ -2,12 +2,11 @@
 
 configure gradle:
 project-level build file:
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		maven { url 'https://jitpack.io' }
 	}
+}
 app-level build file
   implementation 'com.github.PIacid:LibraryExample:Tag'
 
