@@ -13,12 +13,12 @@ val frag = provider.getFragment(1000, 1260)
 supportFragmentManager.beginTransaction().add(R.id.layoutId, frag).commit()
 
 gradle config: <br />
-&enspallprojects { <br />
-&ensp&ensprepositories { <br />
-&ensp&ensp&ensp... <br />
-&ensp&ensp&enspmaven { url 'https://jitpack.io' } <br />
-&ensp&ensp} <br />
-&ensp} <br />
+allprojects { <br />
+repositories { <br />
+... <br />
+maven { url 'https://jitpack.io' } <br />
+} <br />
+} <br />
 dependencies { <br />
 	implementation 'com.github.PIacid:LibraryExample:1.1' <br />
 } 
