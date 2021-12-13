@@ -12,13 +12,13 @@ val frag = provider.getFragment(1000, 1260)
 -include a gragment in your layout
 supportFragmentManager.beginTransaction().add(R.id.layoutId, frag).commit()
 
-gradle config:
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-dependencies {
+gradle config: <br />
+	allprojects { <br />
+		repositories { <br />
+			... <br />
+			maven { url 'https://jitpack.io' } <br />
+		} <br />
+	} <br />
+dependencies { <br />
 	implementation 'com.github.PIacid:LibraryExample:Tag'
-}
+} <br />
