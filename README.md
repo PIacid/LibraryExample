@@ -12,7 +12,9 @@ val frag = provider.getFragment(1000, 1260)
 -include a gragment in your layout
 supportFragmentManager.beginTransaction().add(R.id.layoutId, frag).commit()
 
-gradle config: <br />
+gradle config: 
+<br />
+<br />
 allprojects { <br />
 repositories { <br />
 ... <br />
