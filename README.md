@@ -1,5 +1,5 @@
 # LibraryExample: 
-a library posting SNFW gifs into your app
+a library posting NSFW gifs into your app
 
 example usage:
 
