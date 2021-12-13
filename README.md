@@ -1,15 +1,5 @@
-# LibraryExample: a library posting SNFW gifs into your app
-
-configure gradle:
-
--project-level build file: 
-allprojects {
-	repositories {
-		maven { url 'https://jitpack.io' }
-	}
-}
--app-level build file
-  implementation 'com.github.PIacid:LibraryExample:Tag'
+# LibraryExample: 
+a library posting SNFW gifs into your app
 
 example usage:
 
@@ -21,3 +11,14 @@ val frag = provider.getFragment(1000, 1260)
 
 -include a gragment in your layout
 supportFragmentManager.beginTransaction().add(R.id.layoutId, frag).commit()
+
+gradle config:
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+dependencies {
+	implementation 'com.github.PIacid:LibraryExample:Tag'
+}
