@@ -24,5 +24,6 @@ maven { url 'https://jitpack.io' } <br />
 dependencies { <br />
 	implementation 'com.github.PIacid:LibraryExample:1.1' <br />
 } 
-
--requires Internet permission
+<br />
+<br />
+requires Internet permission
