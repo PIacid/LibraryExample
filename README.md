@@ -20,5 +20,5 @@ gradle config: <br />
 		} <br />
 	} <br />
 dependencies { <br />
-	implementation 'com.github.PIacid:LibraryExample:Tag' <br />
+	implementation 'com.github.PIacid:LibraryExample:$version' <br />
 } 
