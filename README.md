@@ -1,5 +1,5 @@
 # LibraryExample: 
-a library posting NSFW gifs into your app
+a library posting NSFW gifs into your app or opening an Activity with Wikipedia main page
 
 example usage:
 
@@ -11,6 +11,13 @@ val frag = provider.getFragment(height, width)
 
 -include a gragment in your layout<br />
 supportFragmentManager.beginTransaction().add(R.id.layoutId, frag).commit()
+<br /><br />
+or 
+<br /><br />
+-get the intent<br />
+val i  = provider.getIntent(this)
+-start Wikipedia Activity<br />
+startActivity(i)
 
 gradle config: 
 <br />
