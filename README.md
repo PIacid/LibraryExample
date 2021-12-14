@@ -15,7 +15,7 @@ supportFragmentManager.beginTransaction().add(R.id.layoutId, frag).commit()
 or 
 <br /><br />
 -get the intent<br />
-val i  = provider.getIntent(this)<br />
+val i  = provider.getIntent(this)<br /><br />
 -start Wikipedia Activity<br />
 startActivity(i)
 
