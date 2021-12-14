@@ -1,24 +1,29 @@
 # LibraryExample: 
-a library posting SNFW gifs into your app
+a library posting NSFW gifs into your app
 
 example usage:
 
--create a provider
+-create a provider<br />
 val provider: PornProvider = PornProvider()
 
--get a fragment from the provider
-val frag = provider.getFragment(1000, 1260)
+-get a fragment from the provider<br />
+val frag = provider.getFragment(height, width)
 
--include a gragment in your layout
+-include a gragment in your layout<br />
 supportFragmentManager.beginTransaction().add(R.id.layoutId, frag).commit()
 
-gradle config: <br />
-	allprojects { <br />
-		repositories { <br />
-			... <br />
-			maven { url 'https://jitpack.io' } <br />
-		} <br />
-	} <br />
+gradle config: 
+<br />
+<br />
+allprojects { <br />
+repositories { <br />
+... <br />
+maven { url 'https://jitpack.io' } <br />
+} <br />
+} <br /><br />
 dependencies { <br />
-	implementation 'com.github.PIacid:LibraryExample:Tag' <br />
+	implementation 'com.github.PIacid:LibraryExample:1.1' <br />
 } 
+<br />
+<br />
+requires Internet permission
